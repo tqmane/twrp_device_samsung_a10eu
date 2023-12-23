@@ -7,3 +7,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+## How-to compile it:
+
+```sh
+export ALLOW_MISSING_DEPENDENCIES=true
+. build/envsetup.sh
+lunch twrp_a10-eng
+make recoveryimage
+```
